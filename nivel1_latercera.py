@@ -11,7 +11,7 @@ class Noticia(Item) :
     tag = Field()
     titular = Field()
     
-class ElUniversoSpider(Spider) :
+class LaTerceraSipider(Spider) :
     # Nombre del spider
     name = "LaTerceraSipider"
     # Configuración del USER AGENT en scrapy
@@ -40,4 +40,4 @@ class ElUniversoSpider(Spider) :
             yield item.load_item()
             
 # EJECUCION EN TERMINAL:
-# scrapy runspider nivel1_latercera.py -o latercera.csv -t csv
+# scrapy runspider nivel1_latercera.py -o results/latercera.csv -t csv
