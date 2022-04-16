@@ -29,7 +29,7 @@ class HotelSpider(CrawlSpider) :
         ),
     )
     
-    # Preprocesamiento de datos: Eliminamos el simbolo CLP del texto
+    #### Preprocesamiento de datos: Eliminamos el simbolo CLP del texto
     def deleteCLP(self, text) :
         newTxt = text.replace(' CLP', '')
         return newTxt

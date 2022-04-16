@@ -7,9 +7,9 @@ from scrapy.loader import ItemLoader
 
 # Clase Noticia para encapsular los datos que voy a extraer en La Tercera
 class Noticia(Item) :
-    descripcion = Field()
-    tag = Field()
     titular = Field()
+    tag = Field()
+    descripcion = Field()
     
 class LaTerceraSipider(Spider) :
     # Nombre del spider

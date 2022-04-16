@@ -14,7 +14,7 @@ class CruzVerde(CrawlSpider) :
     custom_settings = {
         'USER_AGENT': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/71.0.3578.80 Chrome/71.0.3578.80 Safari/537.36'
     }
-    start_urls = ["https://www.cruzverde.cl"]
+    start_urls = ["https://www.cruzverde.cl/medicamentos/"]
     allowed_domains = ['cruzverde.cl']
     download_delay = 1
     rules = (
@@ -30,10 +30,10 @@ class CruzVerde(CrawlSpider) :
     )
     def parse_cruzverde(self, response) :
         sel = Selector(response)
-        productos = sel.xpath('')
+        productos = sel.xpath('//ml-card-product')
         for producto in productos :
-            item = ItemLoader(Farmacia(), producto)
-            item.add_xpath('Nombre', '')
-            item.add_xpath('Precio', '')
+            item = ItemLoader(Producto(), producto)
+            item.add_xpath('Nombre', '//ml-card-product//at-link//span/text()')
+            item.add_xpath('Precio', '//ml-price-tag//span/text()')
 
             yield item.load_item()
