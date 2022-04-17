@@ -16,7 +16,7 @@ driver = webdriver.Chrome(ChromeDriverManager().install(), chrome_options=opts)
 driver.get('https://www.facebook.com/')
 # Credenciales
 user = "smenaaliaga@hotmail.com"
-password = open('crypted.psw').readline().strip()
+password = "seba1995"
 # Identificar elementos de credencial
 input_user = WebDriverWait(driver, 10).until(
     EC.presence_of_element_located((By.XPATH, '//input[@id="email"]'))
