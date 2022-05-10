@@ -10,7 +10,7 @@ from time import sleep
 # Scrolling Javascript
 def getScrollingScript(iteration) : 
     scrollingScript = """
-        document.getElementsByClassName('siAUzd-neVct section-scrollbox cYB2Ge-oHo7ed cYB2Ge-ti6hGc')[0].scroll(0, 100000)
+        document.getElementsByClassName('m6QErb DxyBCb kA9KIf dS8AEf')[0].scroll(0, 100000)
     """
     return scrollingScript.replace('20000', str(20000 * (iteration + 1)))
 
