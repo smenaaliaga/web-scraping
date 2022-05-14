@@ -1,13 +1,11 @@
 from scrapy.item import Field, Item
-from scrapy.spiders import Spider, CrawlSpider, Rule
-from scrapy.selector import Selector
+from scrapy.spiders import CrawlSpider, Rule
 from scrapy.loader.processors import MapCompose
 from scrapy.loader import ItemLoader
 from scrapy.linkextractors import LinkExtractor
 from scrapy.crawler import CrawlerProcess
 
 class Estacion(Item) :
-    linea = Field()
     nombre = Field()
     lat = Field()
     long = Field()
@@ -30,32 +28,20 @@ class LatLongEstaciones(CrawlSpider) :
     rules = (
         Rule(
             LinkExtractor(
-                allow = r'/wsiki/',
+                allow = r'/wiki/',
                 attrs = ('href'),
                 restrict_xpaths = (
                     '//div[@class="mw-parser-output"]//tr/td[@style="text-align:center;"]/table')
-            ), callback = 'parse_nombre_estaciones' 
-        ),
-        Rule(
-            LinkExtractor(
-                allow = r'/geohack.php',
-                deny_domains = r'wikipedia.org'
-            ), callback = 'parse_latlong_estaciones' 
+            ), callback = 'parse_estacion' 
         ),
     )
 
-    def parse_nombre_estaciones(self, response) :
+    def parse_estacion(self, response) :
         item = ItemLoader(Estacion(), response)
-        
         item.add_xpath('nombre', '//tr/th[@class="cabecera"]/text()')
-
-        yield item.load_item()
-    
-    def parse_latlong_estaciones(self, response) :
-        item = ItemLoader(Estacion(), response)
-        
-        item.add_xpath('lat', '//span[@class="latitude"]/text()')
-        item.add_xpath('long', '//span[@class="longitude"]/text()')
+        item.add_xpath('lat','(//span[@class="geo"]/span[@class="latitude"]/text())[1]',
+        MapCompose(lambda i: i.replace(', ', '')))
+        item.add_xpath('long','(//span[@class="geo"]/span[@class="longitude"]/text())[1]')
 
         yield item.load_item()
 

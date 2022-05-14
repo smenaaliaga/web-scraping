@@ -1,151 +1,138 @@
-lat,linea,long,nombre
-,,,Tobalaba
-,,,Protectora de la Infancia
-,,,Las Mercedes
-,,,Plaza de Maipú
-,,,Elisa Correa
-,,,Plaza de Puente Alto
-,,,Los Quillayes
-,,,Trinidad
-,,,Vicente Valdés
-,,,Los Dominicos
-,,,Rojas Magallanes
-,,,
-,,,San José de la Estrella
-,,,
-,,,Hernando de Magallanes
-,,,San Ramón
-,,,Hospital Sótero del Río
-,,,Santa Rosa
-,,,La Granja
-,,,Santa Julia
-,,,Fernando Castillo Velasco
-,,,Villa Frei
-,,,Monseñor Eyzaguirre
-,,,Matta
-,,,Hospitales
-,,,Plaza Chacabuco
-,,,Chile España
-,,,Parque Almagro
-,,,Conchalí
-,,,Vivaceta
-,,,EIM Los Libertadores
-,,,Los Libertadores
-,,,Cardenal Caro
-,,,Lo Cruzat
-,,,Plaza de Quilicura
-,,,Ferrocarril
-,,,El Pino
-,,,
-,,,El Bosque
-,,,Copa Lo Martínez
-,,,Observatorio
-,,,EIM La Cisterna
-,,,EIM Lo Ovalle
-,,,La Cisterna
-,,,El Llano
-,,,Rondizzoni
-,,,Ciudad del Niño
-,,,Lo Vial
-,,,Parque O'Higgins
-,,,San Miguel
-,,,El Parrón
-,,,Lo Ovalle
-,,,Departamental
-,,,Puente Cal y Canto
-,,,Toesca
-,,,Patronato
-,,,Cerro Blanco
-,,,Cementerios
-,,,Einstein
-,,,Zapadores
-,,,Dorsal
-,,,EIM Vespucio Norte
-,,,Vespucio Norte
-,,,Inés de Suárez
-,,,Bío Bío
-,,,Estadio Nacional
-,,,Ñuñoa
-,,,Presidente Pedro Aguirre Cerda
-,,,
-,,,Franklin
-,,,Lo Valledor
-,,,Lo Errázuriz
-,,,Cerrillos
-,,,Manquehue
-,,,
-,,,Escuela Militar
-,,,El Golf
-,,,Pedro de Valdivia
-,,,Los Leones
-,,,Salvador
-,,,Alcántara
-,,,Manuel Montt
-,,,Universidad Católica
-,,,EIM Franklin
-,,,Santa Lucía
-,,,Universidad de Chile
-,,,
-,,,Terminal de buses San Borja
-,,,Estación Central
-,,,Los Héroes
-,,,La Moneda
-,,,Terminal de buses Santiago
-,,,Universidad de Santiago
-,,,República
-,,,Estación Central
-,,,Ecuador
-,,,San Alberto Hurtado
-,,,Las Rejas
-,,,Neptuno
-,,,Pajaritos
-,,,Mirador
-,,,EIM Bellavista de La Florida
-,,,Bellavista de La Florida
-,,,Unión Latinoamericana
-,,,Pedrero
-,,,San Joaquín
-,,,
-,,,Camino Agrícola
-,,,Carlos Valdovinos
-,,,Rodrigo de Araya
-,,,
-,,,Parque Bustamante
-,,,Santa Isabel
-,,,Irarrázaval
-,,,
-,,,Baquedano
-,,,Bellas Artes
-,,,Cumming
-,,,Plaza de Armas
-,,,Santa Ana
-,,,Quinta Normal
-,,,Ñuble
-,,,Gruta de Lourdes
-,,,Blanqueado
-,,,
-,,,Lo Prado
-,,,Pudahuel
-,,,San Pablo
-,,,Barrancas
-,,,Las Parcelas
-,,,Monte Tabor
-,,,Del Sol
-,,,EIM Del Sol
-,,,Santiago Bueras
-,,,Vicuña Mackenna
-,,,Macul
-,,,Laguna Sur
-,,,Las Torres
-,,,Quilín
-,,,
-,,,Los Presidentes
-,,,Francisco Bilbao
-,,,Príncipe de Gales
-,,,Plaza Egaña
-,,,Los Orientales
-,,,
-,,,Cristóbal Colón
-,,,Simón Bolívar
-,,,
-,,,Grecia
+lat,long,nombre
+-33.53845833,-70.66361667,EIM La Cisterna
+-33.54116944,-70.64327222,San Ramón
+-33.54239167,-70.63419722,Santa Rosa
+-33.537378,-70.664397,La Cisterna
+-33.381161,-70.644528,Vespucio Norte
+-33.531192,-70.605603,Santa Julia
+-33.519675,-70.596167,Vicuña Mackenna
+-33.418056,-70.601667,Tobalaba
+-33.477622,-70.622292,Rodrigo de Araya
+-33.491892,-70.617528,Camino Agrícola
+-33.486539,-70.619131,Carlos Valdovinos
+-33.54111111,-70.61611111,La Granja
+-33.51978611,-70.59865278,EIM Bellavista de La Florida
+-33.447075,-70.63045,Santa Isabel
+-33.513417,-70.605925,Mirador
+-33.520475,-70.599394,Bellavista de La Florida
+-33.508053,-70.612369,Pedrero
+-33.499222,-70.615972,San Joaquín
+-33.452416666667,-70.557916666667,Fernando Castillo Velasco
+-33.407886111111,-70.544883333333,Los Dominicos
+-33.408217,-70.556111,Hernando de Magallanes
+-33.408783,-70.567183,Manquehue
+-33.416539,-70.595422,El Golf
+-33.414267,-70.58465,Escuela Militar
+-33.415339,-70.589528,Alcántara
+-33.425419,-70.614483,Pedro de Valdivia
+-33.428569,-70.619811,Manuel Montt
+-33.432656,-70.626086,Salvador
+-33.440222,-70.640386,Universidad Católica
+-33.447764,-70.667569,República
+-33.445028,-70.655667,La Moneda
+-33.449603,-70.674278,Unión Latinoamericana
+-33.442611,-70.645111,Santa Lucía
+-33.454444444444,-70.68,Terminal de buses San Borja
+-33.45194444,-70.67888889,Estación Central
+-33.450831,-70.679,Estación Central
+-33.452772,-70.686019,Universidad de Santiago
+-33.45410278,-70.68821944,Terminal de buses Santiago
+-33.457294,-70.705583,Las Rejas
+-33.454153,-70.692169,San Alberto Hurtado
+-33.4558,-70.699361,Ecuador
+-33.457394,-70.715978,Pajaritos
+-33.451508,-70.722678,Neptuno
+-33.442772,-70.6315,Parque Bustamante
+-33.439075,-70.668639,Cumming
+-33.4374,-70.634892,Baquedano
+-33.438267,-70.690953,Gruta de Lourdes
+-33.443161,-70.716828,Lo Prado
+-33.440394,-70.680311,Quinta Normal
+-33.436578,-70.644411,Bellas Artes
+-33.441119,-70.706828,Blanqueado
+-33.44494167,-70.74105278,Pudahuel
+-33.45291111,-70.73941111,Barrancas
+-33.4624,-70.7379,Laguna Sur
+-33.482242,-70.745439,Monte Tabor
+-33.496975,-70.757092,Santiago Bueras
+-33.49025,-70.753111111111,EIM Del Sol
+-33.4752,-70.74,Las Parcelas
+-33.489992,-70.752956,Del Sol
+-33.509981,-70.756997,Plaza de Maipú
+-33.421719,-70.609667,Los Leones
+-33.4623662,-70.6062098,Estadio Nacional
+-33.4387209,-70.607319,Inés de Suárez
+-33.4673461,-70.6247406,Ñuble
+-33.4764689,-70.6421708,Bío Bío
+-33.4786705,-70.6647887,Presidente Pedro Aguirre Cerda
+-33.4834216,-70.6955488,Cerrillos
+-33.478389,-70.6808986,Lo Valledor
+-33.4905,-70.722805555556,Lo Errázuriz
+-33.454527777778,-70.580083333333,Villa Frei
+-33.455277777778,-70.5975,Chile España
+-33.454166666667,-70.604972222222,Ñuñoa
+-33.453416666667,-70.614,Monseñor Eyzaguirre
+-33.452406,-70.628989,Irarrázaval
+-33.457916666667,-70.643,Matta
+-33.451694444444,-70.650833333333,Parque Almagro
+-33.417916666667,-70.655972222222,Hospitales
+-33.44375,-70.650344,Universidad de Chile
+-33.397388888889,-70.669638888889,Conchalí
+-33.437733,-70.650456,Plaza de Armas
+-33.406361111111,-70.661055555556,Plaza Chacabuco
+-33.38525,-70.679333333333,Vivaceta
+-33.373111111111,-70.686083333333,Cardenal Caro
+-33.365323,-70.69326,EIM Los Libertadores
+-33.3655,-70.690611111111,Los Libertadores
+-33.365138888889,-70.705333333333,Ferrocarril
+-33.366527777778,-70.720416666667,Lo Cruzat
+-33.365888888889,-70.728833333333,Plaza de Quilicura
+-33.57075,-70.67375,Copa Lo Martínez
+-33.582833333333,-70.676472222222,El Pino
+-33.560416666667,-70.670361111111,Observatorio
+-33.5265,-70.6616,El Parrón
+-33.546416666667,-70.666972222222,El Bosque
+-33.517333333333,-70.658888888889,Lo Ovalle
+-33.51688889,-70.66041667,EIM Lo Ovalle
+-33.5095,-70.6566,Ciudad del Niño
+-33.5024,-70.6546,Departamental
+-33.4969,-70.653,Lo Vial
+-33.4888,-70.6511,San Miguel
+-33.47625,-70.649611111111,EIM Franklin
+-33.4827,-70.6497,El Llano
+-33.469664,-70.656336,Rondizzoni
+-33.476579,-70.649289,Franklin
+-33.461647,-70.656772,Parque O'Higgins
+-33.452911,-70.658581,Toesca
+-33.446169,-70.660442,Los Héroes
+-33.438153,-70.659914,Santa Ana
+-33.433092,-70.651828,Puente Cal y Canto
+-33.429603,-70.647125,Patronato
+-33.422017,-70.644842,Cerro Blanco
+-33.4057,-70.6432,Einstein
+-33.414036,-70.643586,Cementerios
+-33.3909,-70.6425,Zapadores
+-33.397008,-70.642736,Dorsal
+-33.445308,-70.723139,San Pablo
+-33.380531,-70.647711,EIM Vespucio Norte
+-33.601575,-70.57745,Las Mercedes
+-33.609574,-70.5759,Plaza de Puente Alto
+-33.589717,-70.579872,Protectora de la Infancia
+-33.576944,-70.582222,Hospital Sótero del Río
+-33.569444,-70.583889,Elisa Correa
+-33.561389,-70.585278,Los Quillayes
+-33.553597,-70.586558,San José de la Estrella
+-33.545986,-70.588281,Trinidad
+-33.536278,-70.592675,Rojas Magallanes
+-33.526514,-70.596764,Vicente Valdés
+-33.49885,-70.586336,Las Torres
+-33.487922,-70.580333,Quilín
+-33.509258,-70.590072,Macul
+-33.479927,-70.578672,Los Presidentes
+-33.46915833,-70.57648056,Grecia
+-33.462372,-70.57375,Los Orientales
+-33.453411,-70.570753,Plaza Egaña
+-33.445886,-70.572028,Simón Bolívar
+-33.426353,-70.5911,Cristóbal Colón
+-33.439136,-70.573111,Príncipe de Gales
+-33.431811,-70.584764,Francisco Bilbao
